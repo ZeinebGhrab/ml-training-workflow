@@ -1,0 +1,44 @@
+Il existe 4 notions principales pour interpréter un boxplot :
+
+1. Position de la médiane :
+
+Centrée : distribution symétrique
+Tirée vers le bas : distribution asymétrique à droite
+Tirée vers le haut : distribution asymétrique à gauche
+
+2. Taille de la boîte (IQR) :
+
+Boîte large : forte dispersion des données
+Boîte étroite : faible variabilité (données concentrées)
+
+3. Les moustaches :
+
+Longues : étalement important des valeurs
+Asymétriques : présence d’un biais dans la distribution
+
+4. Les valeurs aberrantes (outliers) :
+
+Peu nombreuses : peu de valeurs extrêmes
+Nombreuses : présence fréquente de valeurs extrêmes
+
+⚖️ Problématique en Machine Learning
+La majorité des modèles de Machine Learning supposent que la variable cible (et souvent les résidus) suit une distribution normale.
+Or, dans notre cas, la variable cible est asymétrique à droite.
+
+👉 Solution : Transformation logarithmique
+
+Réduire l’influence des valeurs extrêmes
+Rendre la distribution plus symétrique
+Stabiliser la variance
+Améliorer les relations (corrélations) entre variables
+
+📏 Z-score
+
+Le z-score est une méthode permettant d’interpréter des données standardisées, en mesurant leur distance à la moyenne en nombre d’écarts-types.
+
+📈 Régression
+Régression linéaire : 
+𝑦=𝑓(𝑥), sans pénalisation
+Ridge Regression : régression avec pénalisation (régularisation L2)
+
+👉 La régression linéaire est plus sensible aux variations et au surapprentissage, car elle ne comporte pas de mécanisme de pénalisation, contrairement à Ridge.
