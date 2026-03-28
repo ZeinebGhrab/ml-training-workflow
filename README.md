@@ -1,6 +1,6 @@
 # 📁 Data Science & Machine Learning Projects
 
-A collection of three data science lab projects covering unsupervised clustering, regression-based house price prediction, and binary classification for customer churn prediction.
+A collection of four data science lab projects covering unsupervised clustering, regression-based house price prediction, and binary classification for customer churn prediction.
 
 ---
 
